@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-09-05T14:51:06.821046500Z</date>
+  <millis>1662389466821</millis>
+  <nanos>46500</nanos>
+  <sequence>1</sequence>
+  <logger></logger>
+  <level>WARNING</level>
+  <class>com.example.lesson6.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Info Message</message>
+</record>
+</log>
