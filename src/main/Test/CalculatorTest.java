@@ -1,4 +1,5 @@
 import com.example.lesson6.Calculator;
+import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -39,5 +40,10 @@ public class CalculatorTest {
     @Test
     public void testCalculatorInnerSum2 (){
         Assertions.assertEquals(6,calculator.sum());
+    }
+
+    @AfterAll
+    static void end() {
+        System.out.println("END");
     }
 }
